@@ -6,7 +6,7 @@ import { useRef } from 'react';
 // import HomeParticles from './pages/HomeParticles';
 import Home from './pages/Home';
 import Slider from './pages/Slider';
-import Animation from './pages/animation';
+import Animation from './pages/Animation';
 import Navbar from './pages/Navbar';
 import Motion from './pages/Motion';
 import Skills from './pages/Skills';
