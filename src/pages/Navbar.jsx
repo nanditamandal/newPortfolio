@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { IoMdMenu } from "react-icons/io";
 import { motion } from "framer-motion"
+import { Link } from "react-router-dom";
 
 function Navbar() {
 
@@ -18,7 +19,7 @@ function Navbar() {
             <div className=" hidden md:flex gap-4 items-center justify-center">
                 <a href=""><motion.span initial={{marginLeft:-1000}} animate={{marginLeft:0}} transition={{duration: 5 , ease:"linear" }}>Home</motion.span></a>
                 
-                <a href="">About</a>
+                <Link to={"/contact"}>About</Link>
                 <a href="">
                 <motion.span initial={{marginRight:-1000}} animate={{marginRight:0}} transition={{duration: 5 , ease:"linear" }}>Contact</motion.span>
                 </a>
@@ -34,7 +35,8 @@ function Navbar() {
                             <div className="flex flex-col gap-4 items-center justify-center">
                                 <a href="">Home</a>
                                 <a href="">About</a>
-                                <a href="">Contact</a>
+                                
+                               
                         </div>
         </div>
        {/* {

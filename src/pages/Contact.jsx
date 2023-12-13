@@ -17,14 +17,14 @@ export default function Contact() {
   };
 
   return (
-  <section className="bg-slate-800 h-[100%]" id="contact">
-  <div className="container mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+  <section className="bg-slate-800 w-screen h-[100%]" id="contact">
+  <div className=" px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
     <div className="mb-4">
       <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
         <p className="text-base font-semibold uppercase tracking-wide text-blue-600 dark:text-blue-200">
-          Contact
+          {/* Contact */}
         </p>
-        <h2 className="font-heading mb-4 font-bold tracking-tight text-gray-900 dark:text-white text-3xl sm:text-5xl">
+        <h2 className="font-heading mb-4 font-bold tracking-tight text-cyan-500 dark:text-white text-3xl sm:text-5xl">
           Get in Touch
         </h2>
         {/* <p className="mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-slate-400">In hac habitasse platea
@@ -118,8 +118,11 @@ export default function Contact() {
                 <textarea id="message" name="message" cols={30} rows={5} placeholder="Write your message..." className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" defaultValue={""} />
               </div>
             </div>
-            <div className="text-center shadow-[0px_2px_24px_28px_#63b3ed]">
-              <button type="submit" className="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0 ">Send Message</button>
+            <div className="text-center">
+             
+              <button type="submit" className=" w-full transition-all ease-linear duration-[2000ms] border-2 border-indigo-600 rounded-tl-3xl rounded-br-3xl bg-gradient-to-r from-cyan-500 to-blue-500 hover:border-5 text-white font-bold py-2 px-4 hover:scale-100 rounded">
+        See More
+      </button>
             </div>
           </form>
         </div>

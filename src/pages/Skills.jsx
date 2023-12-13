@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 function Skills() {
   return (
-    <section className="text-white container mx-auto bg-slate-800 w-[100%] h-[100vh]" id="skills">
+    <section className="text-white  bg-slate-800 w-screen h-[100vh]" id="skills">
 
         <div className="flex justify-center">
         <h1 className="text-white lg:text-5xl md:text-4xl text-3xl  font-semibold md:mb-20 mb-8 text-center">PROFESSIONAL <span className="text-primary">SKILLSET</span> </h1>
@@ -13,8 +13,8 @@ function Skills() {
             <div className=" w-[50%] p-4">
                 <motion.div initial='hidden' whileInView='visible' transition={{duration: 1 , ease:'linear'}} 
                   variants={{
-                    visible: {translateX:0, opacity:1},
-                    hidden: {translateX: -500, opacity:0}
+                    visible: { opacity:1},
+                    hidden: { opacity:0}
                   }}
                 >
                    <span>html</span>
@@ -25,8 +25,8 @@ function Skills() {
             
                 <motion.div initial='hidden' whileInView='visible' transition={{duration: 2 , ease:'linear'}} 
                   variants={{
-                    visible: {translateX:0, opacity:1},
-                    hidden: {translateX: -500, opacity:0}
+                    visible: { opacity:1},
+                    hidden: { opacity:0}
                   }}
                 >
                    <span>CSS</span>
@@ -37,8 +37,8 @@ function Skills() {
           
                 <motion.div initial='hidden' whileInView='visible' transition={{duration: 3 , ease:'linear'}} 
                   variants={{
-                    visible: {translateX:0},
-                    hidden: {translateX: -500}
+                    visible: { opacity:1},
+                    hidden: { opacity:0}
                   }}
                 >
                    <span>JavaScript</span>
@@ -50,8 +50,8 @@ function Skills() {
             <div className=" w-[50%] p-4">
                 <motion.div initial='hidden' whileInView='visible' transition={{duration: 1 , ease:'linear'}} 
                   variants={{
-                    visible: {translateX:0, opacity:1},
-                    hidden: {translateX: 700, opacity:0}
+                    visible: {opacity:1},
+                    hidden: {opacity:0}
                   }}
                 >
                    <span>Tailwind CSS</span>
@@ -62,8 +62,8 @@ function Skills() {
             
                 <motion.div initial='hidden' whileInView='visible' transition={{duration: 2 , ease:'linear'}} 
                   variants={{
-                    visible: {translateX:0, opacity:1},
-                    hidden: {translateX: 700, opacity:0}
+                    visible: { opacity:1},
+                    hidden: {opacity:0}
                   }}
                 >
                    <span>Framer Motion</span>
@@ -74,8 +74,8 @@ function Skills() {
           
                 <motion.div initial='hidden' whileInView='visible' transition={{duration: 3 , ease:'linear'}} 
                   variants={{
-                    visible: {translateX:0, opacity:1},
-                    hidden: {translateX: 700, opacity:0}
+                    visible: { opacity:1},
+                    hidden: { opacity:0}
                   }}
                 >
                    <span>React Js</span>

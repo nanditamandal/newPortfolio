@@ -27,7 +27,7 @@ function Motion() {
     <>
     <div className="grid grid-cols-1 md:grid-cols-3 container mx-auto px-4">
 
-    <motion.div initial= 'hidden' whileInView='visible'
+     <motion.div initial= 'hidden' whileInView='visible'
     
   transition={{duration: 5 , ease:'linear'}} 
 
@@ -50,7 +50,7 @@ function Motion() {
       <div className="badge badge-outline">Products</div>
     </div>
   </div>
-</motion.div>
+</motion.div> 
 
 <motion.div initial={{y:-1000}} animate={{y:0}} transition={{duration:5, ease:'linear'}} className="card w-96 bg-base-100 shadow-xl">
   <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
@@ -67,7 +67,7 @@ function Motion() {
   </div>
 </motion.div>
 
-<motion.div initial={{x:1000}} animate={{x:0}} transition={{duration:5, ease:'linear'}} className="card w-96 bg-base-100 shadow-xl">
+{/* <motion.div initial={{x:1000}} animate={{x:0}} transition={{duration:5, ease:'linear'}} className="card w-96 bg-base-100 shadow-xl">
   <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">
@@ -80,7 +80,7 @@ function Motion() {
       <div className="badge badge-outline">Products</div>
     </div>
   </div>
-</motion.div>
+</motion.div> */}
 
 
     </div>

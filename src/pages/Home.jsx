@@ -3,7 +3,8 @@ import Particles from "react-tsparticles";
 //import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
 import { loadSlim } from "tsparticles-slim"; // 
 import './Home.css'
-import css from '../assets/css.jpg'
+import image from '../assets/nandita.jpg'
+
 
 function Home() {
     const particlesInit = useCallback(async engine => {
@@ -20,6 +21,7 @@ function Home() {
     }, []);
   return (
     <div className="h-screen relative w-[100%] bg-slate-800 container mx-auto" id="home">
+     
 
     <Particles className="absolute z-10 h-screen w-screen"
     id="tsparticles"
@@ -592,20 +594,20 @@ function Home() {
     }
 />
 
-<div className="h-screen w-[100%] absolute z-20 text-white grid grid-cols-2">
+<div className="h-screen w-[100vw] absolute z-20 text-white grid grid-cols-2">
  {/* <div className="hero flex items-centre justify-between"> */}
   <div className="flex justify-center items-center ">
-    <img src={css} alt="Profile" className="w-[300px] h-[300px] rounded-[50%] "/>
+    <img src={image} alt="Profile" className="w-[300px] h-[300px] rounded-[50%] "/>
 
   </div>
   <div className="flex justify-center items-center pr-[100px] py-5">
     <div className="">
-    <h1>Hello</h1>
-    <h2>My Name is Nandita Mandal</h2>
-    <h3>I am a Web<br /> <span>Developer</span></h3>
+    <h1 className="lg:text-left lg:text-4xl text-2xl text-current mb-2 ">Hi There!</h1>
+    <h1 className="lg:text-5xl md:text-3xl text-2xl font-bold lg:text-left text-secondary custom-fontweight">I'm  <span className="text-cyan-500">Nandita <br/> Mandal</span> </h1>
+    <div className="Typewriter" data-testid="typewriter-wrapper"><span class="Typewriter__wrapper">React Stack Developer</span><span className="Typewriter__cursor">|</span></div>
     
     <div className="mt-5">
-      <button className=" transition-all ease-linear duration-[5000ms] border-2 border-indigo-600 rounded-tl-3xl rounded-br-3xl bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 hover:scale-150 rounded">
+      <button className=" transition-all ease-linear duration-[1000ms] border-2 border-indigo-600 rounded-tl-3xl rounded-br-3xl bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 hover:scale-125 rounded">
         <a rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/18xWpKY8YC0EeIZ2PK4xBxk0XY7P7-NGQ/view?usp=sharing" >DOWNLOAD CV</a>
       </button>
     </div>
