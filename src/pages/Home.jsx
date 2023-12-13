@@ -608,7 +608,7 @@ function Home() {
     
     <div className="mt-5">
       <button className=" transition-all ease-linear duration-[1000ms] border-2 border-indigo-600 rounded-tl-3xl rounded-br-3xl bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 hover:scale-125 rounded">
-        <a rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/18xWpKY8YC0EeIZ2PK4xBxk0XY7P7-NGQ/view?usp=sharing" >DOWNLOAD CV</a>
+        <a rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/1Ave9f19N3VMX7KuuLaMo-VRMgk7hGFAW/view?usp=sharing" >DOWNLOAD CV</a>
       </button>
     </div>
     </div>
